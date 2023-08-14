@@ -5,7 +5,8 @@ function toggleNavbar() {
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-    // Función para alternar la clase "show" en la barra de navegación
+    
+// Función para alternar la clase "show" en la barra de navegación
     function toggleNavbar() {
         const navbarNav = document.querySelector('.navbar-nav');
         if (navbarNav) {
@@ -13,13 +14,13 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-    // Agregar evento de clic al icono del toggler
+ // Agregar evento de clic al icono del toggler
     const toggler = document.querySelector('.navbar-toggler');
     if (toggler) {
         toggler.addEventListener('click', toggleNavbar);
     }
 
-    // Cambiar el fondo de la barra de navegación al hacer scroll
+// Cambiar el fondo de la barra de navegación al hacer scroll
     window.addEventListener('scroll', () => {
         const currentScrollPos = window.pageYOffset;
         const navbar = document.querySelector('.navbar');
