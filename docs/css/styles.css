@@ -459,8 +459,8 @@ textarea {
 .gallery-page {
   background-image: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.733),
-      rgba(54, 54, 54, 0.527)
+      rgba(167, 163, 163, 0.733),
+      rgba(165, 161, 161, 0.527)
     ),
     url(../img/bg3.jpg);
   background-size: cover;
@@ -472,9 +472,9 @@ textarea {
   overflow: hidden;
 }
 .gallery-header h1 {
-  font-size: 3rem;
+  font-size: 2.2rem; 
   margin-bottom: 6px;
-  color: #ffffffc9;
+  color: #343435c9;
   animation: waveAnimation 3s linear infinite alternate; 
 }
 @keyframes waveAnimation {
@@ -549,7 +549,7 @@ textarea {
   text-align: center;
 }
 .navbar.scrolled {
-  background-color: rgba(255,255,255,0.9);
+  background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   padding-top: 10px; 
   padding-bottom: 10px;
@@ -559,7 +559,7 @@ textarea {
 
 @media (max-width: 991px) {
   .navbar-collapse.collapse.show {
-    background-color: rgba(255,255,255,0.849 ); 
+    background-color: #ffae00c5; 
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
     padding-top: 10px;
     padding-bottom: 10px; 
