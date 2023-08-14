@@ -627,6 +627,13 @@ textarea {
     padding: 30% 0; 
   }
 
+  .testimonials-section {
+    background: url("../img/bg4.jpg") no-repeat center top;
+    background-size: cover; /* Ajustar el fondo al tamaño de la sección, manteniendo la proporción */
+    padding: 8% 0;
+    position: relative;
+  }
+  
   .testimonial-card {
     width: 100%; 
     height: auto; 
